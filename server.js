@@ -11,6 +11,7 @@ var routes = require('./routing/html-routes.js');
 
 // connect the routes
 app.use('/', routes);
+app.use(express.static(process.cwd() + 'public'));
 app.use('/update', routes);
 app.use('/create', routes);
 
@@ -20,3 +21,4 @@ app.listen(port, function(err){
 	if (err) throw err;
 	console.log('listening as ' + port)
 });
+
