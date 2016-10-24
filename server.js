@@ -11,7 +11,7 @@ var routes = require('./routing/html-routes.js');
 
 // connect the routes
 app.use('/', routes);
-app.use(express.static(process.cwd() + 'public'));
+app.use(express.static(process.cwd() + '/public'));
 app.use('/update', routes);
 app.use('/create', routes);
 
