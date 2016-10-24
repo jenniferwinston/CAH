@@ -1,0 +1,127 @@
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: black;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+.jumbotron {
+	background-color: white;
+	color: black;
+}
+.myform {
+	margin: 10px 10px 0px 0px;
+	float: right;
+}
+.login{
+	float: right;
+	margin: 0px 10px 0px 5px;
+	color: black;
+}
+
+/* Header animation*/
+#animation {
+  animation-duration: 3s;
+  animation-name: bounce;
+  animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+   40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.directions{
+	font-size: 16px;
+}
+
+.directionsTitle{
+	font-size: 20px;
+}
+
+
+.scores{
+	font-size: 20px;
+}
+
+.judge{
+	font-size: 20px;
+}
+
+
+.blackCard {
+	font-size: 20px;
+}
+
+.whiteCards{
+	margin-top: 250px;
+	font-size: 20px;
+}
+
+
+/* scoreboard */
+.score-board {
+    text-align: center;
+    font-size: 20px;
+}
+
+.player {
+    display: inline-block;
+    padding: 5px;
+}
+
+.player h4 {
+    font-weight: bold;
+}
+
+.score-box {
+    border: 3px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+
+/* judge */
+.judge-box {
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    width: 90px;
+    height: 100px;
+    display: inline-block;
+}

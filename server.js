@@ -1,14 +1,19 @@
 var express = require('express');
 var mysql = require('mysql');
-var app = express();
+var path = require('path');
 var cards = require('./assets/cards.js')
+var app = express();
 
-app.get('/', function(req,res){
-	res.redirect('/home')
-});
-app.get('/home', function(req,res){
-	res.json(cards)
-})
+require('./routing/html-routes.js')(app);
+
+
+var routes = require('./routing/html-routes.js');
+
+// connect the routes
+app.use('/', routes);
+app.use('/update', routes);
+app.use('/create', routes);
+
 
 var port = process.env.PORT || 3000;
 app.listen(port, function(err){
