@@ -12,13 +12,15 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 require('./routing/html-routes.js')(app);
 
 
-var routes = require('./routing/html-routes.js');
+// var routes = require('./routing/html-routes.js');
 
 // connect the routes
-app.use('/', routes);
+
+// app.use(express.static(__dirname + '/public'));
 app.use(express.static(process.cwd() + '/public'));
-app.use('/update', routes);
-app.use('/create', routes);
+// app.use('/', routes);
+// app.use('/update', routes);
+// app.use('/create', routes);
 
 
 var port = process.env.PORT || 3000;
