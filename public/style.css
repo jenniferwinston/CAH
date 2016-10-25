@@ -2,19 +2,16 @@ body {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-color: black;
-	color: white;
 	font-family: "Helvetica Neue", Helvetica;
+  background-color: white;
 }
 
-h1 {
-	color: white;
-	font-size: 50px;
-	font-family: "Helvetica Neue", Helvetica;
+#backg {
+  background-color: white;
 }
 
 .jumbotron {
-	background-color: white;
+	background:white !important;
 	color: black;
 }
 .myform {
@@ -73,10 +70,12 @@ h1 {
 
 .scores{
 	font-size: 20px;
+  color: white;
 }
 
 .judge{
 	font-size: 20px;
+  color: white;
 }
 
 
@@ -99,10 +98,11 @@ h1 {
 .player {
     display: inline-block;
     padding: 5px;
+    color: white;
 }
 
-.player h4 {
-    font-weight: bold;
+.ctitle {
+  color: white;
 }
 
 .score-box {
