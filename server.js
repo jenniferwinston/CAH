@@ -11,7 +11,6 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 require('./routing/html-routes.js')(app);
 
-
 // var routes = require('./routing/html-routes.js');
 
 // connect the routes

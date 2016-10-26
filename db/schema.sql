@@ -8,6 +8,6 @@ DROP TABLE IF EXISTS players;
 CREATE TABLE players (
 id int NOT NULL AUTO_INCREMENT,
 player_name varchar(255) NOT NULL,
-judge BOOL DEFAULT false,
+gameWins INT NOT NULL,
 PRIMARY KEY (id)
 );
