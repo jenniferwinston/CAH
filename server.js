@@ -4,10 +4,17 @@ var path = require('path');
 var cards = require('./assets/cards.js')
 var app = express();
 var bodyParser = require('body-parser');
+var methodOverride = require('method-override');
+app.use(methodOverride('_method'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
+
+var models = require('./models')
+
+// sync the models
+models.sequelize.sync();
 
 require('./routing/html-routes.js')(app);
 
