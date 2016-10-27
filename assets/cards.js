@@ -44,65 +44,65 @@ var deck =
 
 {"text":"Next from J.K. Rowling: Harry Potter and the Chamber of _.","pick":1, "id": 20},
 
-{"text":"A romantic, candlelit dinner would be incomplete without _.","pick":1},
+{"text":"A romantic, candlelit dinner would be incomplete without _.","pick":1, "id": 21},
 
-{"text":"White people like _.","pick":1},
+{"text":"White people like _.","pick":1, "id": 22},
 
-{"text":"_. Betcha can't have just one!","pick":1},
+{"text":"_. Betcha can't have just one!","pick":1, "id": 23},
 
-{"text":"War!<br><br>What is it good for?","pick":1},
+{"text":"War!<br><br>What is it good for?","pick":1, "id": 24},
 
-{"text":"BILLY MAYS HERE FOR _.","pick":1},
+{"text":"BILLY MAYS HERE FOR _.","pick":1, "id": 25},
 
-{"text":"_. High five, bro.","pick":1},
+{"text":"_. High five, bro.","pick":1, "id": 26},
 
-{"text":"During sex, I like to think about _.","pick":1},
+{"text":"During sex, I like to think about _.","pick":1, "id": 27},
 
-{"text":"What did I bring back from Mexico?","pick":1},
+{"text":"What did I bring back from Mexico?","pick":1, "id": 28},
 
-{"text":"What are my parents hiding from me?","pick":1},
+{"text":"What are my parents hiding from me?","pick":1, "id": 29},
 
-{"text":"What will always get you laid?","pick":1},
+{"text":"What will always get you laid?","pick":1, "id": 30},
 
-{"text":"What would grandma find disturbing, yet oddly charming?","pick":1},
+{"text":"What would grandma find disturbing, yet oddly charming?","pick":1, "id": 31},
 
-{"text":"What did the U.S. airdrop to the children of Afghanistan?","pick":1},
+{"text":"What did the U.S. airdrop to the children of Afghanistan?","pick":1, "id": 32},
 
-{"text":"What helps Obama unwind?","pick":1},
+{"text":"What helps Obama unwind?","pick":1, "id": 33},
 
-{"text":"What's there a ton of in heaven?","pick":1},
+{"text":"What's there a ton of in heaven?","pick":1, "id": 34},
 
-{"text":"Major League Baseball has banned _ for giving players an unfair advantage.","pick":1},
+{"text":"Major League Baseball has banned _ for giving players an unfair advantage.","pick":1, "id": 35},
 
-{"text":"When I am a billionaire, I shall erect a 50-foot statue to commemorate _.","pick":1},
+{"text":"When I am a billionaire, I shall erect a 50-foot statue to commemorate _.","pick":1, "id": 36},
 
-{"text":"What's the new fad diet?","pick":1},
+{"text":"What's the new fad diet?","pick":1, "id": 37},
 
-{"text":"When I am the President of the United States, I will create the Department of _.","pick":1},
+{"text":"When I am the President of the United States, I will create the Department of _.","pick":1, "id": 38},
 
-{"text":"_. It's a trap!","pick":1},
+{"text":"_. It's a trap!","pick":1, "id": 39},
 
-{"text":"How am I maintaining my relationship status?","pick":1},
+{"text":"How am I maintaining my relationship status?","pick":1, "id": 40},
 
-{"text":"What will I bring back in time to convince people that I am a powerful wizard?","pick":1},
+{"text":"What will I bring back in time to convince people that I am a powerful wizard?","pick":1, "id": 41},
 
-{"text":"While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on _.","pick":1},
+{"text":"While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on _.","pick":1, "id": 42},
 
-{"text":"Coming to Broadway this season, _: The Musical.","pick":1},
+{"text":"Coming to Broadway this season, _: The Musical.","pick":1, "id": 43},
 
-{"text":"What's my secret power?","pick":1},
+{"text":"What's my secret power?","pick":1, "id": 44},
 
-{"text":"What gives me uncontrollable gas?","pick":1},
+{"text":"What gives me uncontrollable gas?","pick":1, "id": 45},
 
-{"text":"But before I kill you, Mr. Bond, I must show you _.","pick":1},
+{"text":"But before I kill you, Mr. Bond, I must show you _.","pick":1, "id": 46},
 
-{"text":"What never fails to liven up the party?","pick":1},
+{"text":"What never fails to liven up the party?","pick":1, "id": 47},
 
-{"text":"What am I giving up for Lent?","pick":1},
+{"text":"What am I giving up for Lent?","pick":1, "id": 48},
 
-{"text":"What do old people smell like? ","pick":1},
+{"text":"What do old people smell like? ","pick":1, "id": 49},
 
-{"text":"The class field trip was completely ruined by _.","pick":1},
+{"text":"The class field trip was completely ruined by _.","pick":1, "id": 50},
 
 {"text":"When Pharaoh remained unmoved, Moses called down a plague of _.","pick":1},
 
