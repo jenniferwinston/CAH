@@ -2,20 +2,47 @@ body {
 	font-family: "Helvetica Neue", Helvetica;
 }
 
+.btn-glyphicon { padding:1px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+
 .jumbotron {
 	background:white !important;
 	color: black;
 	margin-top: 100px;
 }
 
-.btn {
+.btn-lg {
 	padding: 20px !important;
 }
 
-.btn:hover {
+.btn-lg:hover {
 	 -webkit-transform: scale(1.1);
     background: #31708f;
+}
 
+.statsbox {
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 130px;
+    display: inline-block;
+    
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 500;
+}
+
+.statsTitle {
+  font-size: 23px;
+  text-align: center;
+}
+.stats {
+  margin-left: 40px;
 }
 
 /* Header animation*/
