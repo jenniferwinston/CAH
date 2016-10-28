@@ -1,45 +1,33 @@
 var deck = require('./../assets/cards.js');
 var path = require('path');
-
 var express = require('express');
 var router = express.Router();
 var player = require('../models/')["player"];
-module.exports = function(app){
-
-	router.post('/player/:playerName', function(req, res) {
-
-		// var userData 	= req.body;
-		// var userName 	= req.body.name;
-		var userData 	= req.body;
-		console.log(req.body)
-		var userName 	= userData.name;
-		console.log("..." + userName + "...")
-
-		// edited burger create to add in a player_name
-		player.create({player_name: userName, gameWins: 0})
-		// pass the result of our call
-		.then(function(newPlayer){
-			// log the result to our terminal/bash window
-			// console.log(newPlayer);
-			// redirect
-			console.log('think this works')
-			res.redirect('/game');
-		});
-	});
+var playersArray = [];
 
 	router.get('/', function (req, res) {
 		res.sendFile(path.join(__dirname + '/../public/landing.html'));
 	});
 
-	router.get('/game', function(req, res){
-		console.log('this is working')
-		res.sendFile(path.join(__dirname + '/../public/home.html'));
+	router.post('/player/:playerName', function(req, res) {
+
+		var userData = req.body;
+		console.log(userData);
+		var userName = userData.name;
+		console.log("..." + userName + "...");
+		playersArray.push(userName);
+		player.create({player_name: userName, gameWins: 0}).then(function(){
+			console.log('think this works');
+
+			res.send({redirectUrl: "/game"});
+		});
 	});
 
-	// app.get('/game', function (req, res) {
-	// 	res.sendFile(path.join(__dirname + '/../public/home.html'));
-	// });
-};
+	router.get('/game', function(req, res){
+		console.log('this is working');
+		res.sendFile(path.join(__dirname + '/../public/home.html'));
+	});
+// };
 
 
 
@@ -117,3 +105,5 @@ function startGame (arrayOfPlayers) {
 		this.hand = hand,
 		this.score = 0
 	};
+
+module.exports = router;

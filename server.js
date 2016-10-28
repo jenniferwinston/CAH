@@ -16,14 +16,15 @@ var models = require('./models')
 // sync the models
 models.sequelize.sync();
 
-require('./routing/html-routes.js')(app);
-
-// var routes = require('./routing/html-routes.js');
+var routes = require('./controllers/controller.js');
 
 // connect the routes
 
 // app.use(express.static(__dirname + '/public'));
 app.use(express.static(process.cwd() + '/public'));
+app.use('/', routes);
+// app.use('/game', routes);
+// app.use('/create', routes);
 // app.use('/', routes);
 // app.use('/update', routes);
 // app.use('/create', routes);

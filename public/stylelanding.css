@@ -2,6 +2,10 @@ body {
 	font-family: "Helvetica Neue", Helvetica;
 }
 
+.modal-title {
+  text-align: center;
+}
+
 .btn-glyphicon { padding:1px; background:#ffffff; margin-right:4px; }
 .icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
 
