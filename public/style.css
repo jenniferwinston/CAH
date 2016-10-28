@@ -158,8 +158,8 @@ body {
     width: 130px;
     height: 200px;
     display: inline-block;
-    font-size: 15px;
     text-align: center;
+    vertical-align: top;
 }
 .card2{
     border: 3px solid white;
@@ -170,8 +170,8 @@ body {
     width: 130px;
     height: 200px;
     display: inline-block;
-    font-size: 15px;
     text-align: center;
+    vertical-align: top;
 }
 .card3{
     border: 3px solid white;
@@ -182,8 +182,8 @@ body {
     width: 130px;
     height: 200px;
     display: inline-block;
-    font-size: 15px;
     text-align: center;
+    vertical-align: top;
 }
 .card4{
     border: 3px solid white;
@@ -194,8 +194,8 @@ body {
     width: 130px;
     height: 200px;
     display: inline-block;
-    font-size: 15px;
     text-align: center;
+    vertical-align: top;
 }
 .card5{
     border: 3px solid white;
@@ -206,8 +206,8 @@ body {
     width: 130px;
     height: 200px;
     display: inline-block;
-    font-size: 15px;
     text-align: center;
+    vertical-align: top;
 }
 
 
