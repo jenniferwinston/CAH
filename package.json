@@ -27,6 +27,8 @@
     "method-override": "^2.3.6",
     "mysql": "^2.11.1",
     "path": "^0.12.7",
-    "sequelize": "^3.24.5"
+    "sequelize": "^3.24.5",
+    "socket.io": "^1.5.1",
+    "ws": "^1.1.1"
   }
 }

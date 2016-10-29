@@ -3,16 +3,33 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	font-family: "Helvetica Neue", Helvetica;
-  background-color: white;
+  background-color: black;
+}
+#idk {
+    background-color: black;
+    height:250px;
+}
+
+#users {
+    font-size: 20px;
+    color: white;
+    overflow-y: scroll;
+    height:250px;
 }
 
 #backg {
   background-color: white;
 }
 
+#jumbo {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
 .jumbotron {
 	background:white !important;
 	color: black;
+
 }
 .myform {
 	margin: 10px 10px 0px 0px;
@@ -126,9 +143,14 @@ body {
 }
 
 
+
 .bctitle {
     font-size: 20px;
     color: white;
+}
+
+.floattop {
+    float: top;
 }
 
 .blackCard {

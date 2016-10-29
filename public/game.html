@@ -16,10 +16,9 @@
 
     <title>Developers Against Humanity</title>
     <script src="/socket.io/socket.io.js"></script>
-    <script type="text/javascript">
+    <script>
       var socket = io();
     </script>
-    
   </head>
   <body>
 
@@ -67,15 +66,33 @@
 
       <div class="row">
        <div class="col-sm-3">
-            <ul id="users" class= "bctitle">Users Online:</ul>
-              
-              
-              
+            <div class= "bctitle">Black Card:</div>
+              <div class="blackCard">
+                <div class="blackQuestion"> Sample question for positioning because they can be long</div>
+            </div>  
         </div>  <!--col-->
 
         <div class="col-sm-9">
           <div class= "wctitle">Your Deck:</div>
-                
+                <div class="yourdeck">
+                      <div class="card1">
+                          <div class="card1text">Looking on Stack Over Flow</div>
+                      </div>
+                      <div class="card2">
+                          <div class="card2text">Looking on Google</div>
+                      </div>
+                      <div class="card3">
+                          <div class="card3text">Looking in the Sky</div>
+                      </div>
+                      <div class="card4">
+                          <div class="card4text">
+                              <div class="card4text">Asking Jon</div>
+                          </div>
+                      </div>
+                      <div class="card5">
+                          <div class="card5text">No reply</div>
+                      </div>
+                </div> <!--yourdeck-->
           </div> <!--col-->
       </div> <!--row-->
 
@@ -85,9 +102,6 @@
    
   </body>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-     <script src="js.js" type="text/javascript"></script>
-     <script src="socket.js" type="text/javascript"></script>
-
 
 <!-- Google Analytics ======================== -->
 <script>
@@ -98,25 +112,6 @@
 
   // ga('create', 'UA-85996066-1', 'auto');
   // ga('send', 'pageview');
-  var currentURL = window.location.origin;
-  $(document).ready(function(){
-    socket.emit('chat message', $('#m').val());
-    $('#m').val('');
-    return false;
-  });
-  
-  // $(document).ready(function(){
-    // var socket = io();
-  //   socket.emit('new user', );
-  //   // $('#m').val('');
-  //   return false;
-  // });
-  
-  // game.on('new user', function (data) {
-  //   console.log(data);
-  //   $("#users").append($('<li/>').addClass('bctitle').attr('data-id', "yo").val("yo"))
-  //   socket.emit('i did a thing', { my: 'data' });
-  // });
 </script>
 
 </html>
