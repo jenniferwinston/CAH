@@ -52,9 +52,9 @@ io.on('connection', function(socket){
   		
   	}
   });
-  socket.on('choice', function() {
-  	
-  })
+  socket.on('choice', function(html) {
+  	io.emit('choice', html);
+  });
 });
 
 // app.post('/add', function (req, res) {

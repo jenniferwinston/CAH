@@ -164,6 +164,12 @@
         $("#users").append(li);
         
       });
+      socket.on('choice', function(data) {
+        if(me.isJudge) {
+          var div = $("<div></div>").text(data).addClass('col-sm-2').addClass('heyo').addClass('card1');
+                $("#whites").append(div);
+        }
+      })
       socket.on('hey', function(game) {
         console.log(game);
         for (var i = 0; i < game.players.length; i++) {
@@ -173,11 +179,14 @@
             $("#b").append($("<div></div>")).addClass("blackCard").text(game.currentBlackCard);
             me = game.players[i];
             console.log("ME: " + me)
-            for (var i = 0; i < me.hand.length; i++) {
+            if(!me.isJudge) {
+              for (var i = 0; i < me.hand.length; i++) {
 
-              var div = $("<div></div>").text(me.hand[i]).addClass('col-sm-2').addClass('heyo').addClass('card' + (i+1));
-              $("#whites").append(div);
+                var div = $("<div></div>").text(me.hand[i]).addClass('col-sm-2').addClass('heyo').addClass('card' + (i+1));
+                $("#whites").append(div);
+              };
             }
+            
           }
         }
       })
